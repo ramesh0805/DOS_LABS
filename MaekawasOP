@@ -1,0 +1,11 @@
+P0 requesting CS
+P0 enters CS
+P0 releases CS
+P1 requesting CS
+P1 enters CS
+P1 releases CS
+P2 requesting CS
+P2 enters CS
+P2 releases CS
+
+Process finished with exit code 0
