@@ -1,0 +1,11 @@
+P1Sends message to P2 with clock[1, 0, 0]
+Internal event in P1: [2, 0, 0]
+P2 received message from P1 : [2, 1, 0]
+Internal event in P3: [0, 0, 1]
+
+Final Vector Clocks:
+P1 : [2, 0, 0]
+P2 : [2, 1, 0]
+P3 : [0, 0, 1]
+
+Process finished with exit code 0
