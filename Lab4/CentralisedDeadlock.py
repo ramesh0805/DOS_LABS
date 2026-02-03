@@ -6,6 +6,8 @@ def detect_deadlock(wfg):
     visited.add(process)
     rec_stack.add(process)
     for neighbor in wfg.get(process, []) :
+      if neighbor in rec_stack:
+        return True
       if neighbor not in visited:
         if dfs(neighbor):
           return True
